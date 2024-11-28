@@ -1,4 +1,6 @@
 <template>
+
+  
   <LayoutHeader v-if="deal.data">
     <template #left-header>
       <Breadcrumbs :items="breadcrumbs">
